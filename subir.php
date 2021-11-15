@@ -15,12 +15,12 @@ if (isset($_POST['register'])) {
            <?php
 	    } else {
 	    	?> 
-	    	<h3 class="bad">¡Ups ha ocurrido un error!</h3>
+	    	<h3 class="bad">Ups ha ocurrido un error!</h3>
            <?php
 	    }
     }   else {
 	    	?> 
-	    	<h3 class="bad">¡Por favor complete los campos!</h3>
+	    	<h3 class="bad">Por favor complete los campos!</h3>
            <?php
     }
 }
