@@ -9,16 +9,16 @@
 $inc = include("conexion.php");
 
 if ($inc) {
-	$consulta = "SELECT pisos.lugar,pisos.piso FROM pisos INNER JOIN estado ON estado.id_piso = pisos.lugar WHERE estado.estado ='libre' ";
+	$consulta = "SELECT lugar,piso FROM pisos WHERE estado ='libre' ";
 	$resultado = mysqli_query($con,$consulta);
 }
    if($resultado)
-   {
+    {
      ?><h1>HAY LUGARES VACIOS</h1> <?php
-      }
+    }
    else
    {
-?><h1>NO HAY LUGARES VACIOS</h1><?php
+     ?><h1>NO HAY LUGARES VACIOS</h1><?php
    }
 	    ?>
 

@@ -14,5 +14,8 @@
 <a href="tabla.php"><button>Clientes</button></a>
 <br>
 <a href="formeli.php"><button>Quitar cliente</button></a>
+<br>
+<a href="form.php"><button>Poner cliente</button></a>
+
 
 </body>
