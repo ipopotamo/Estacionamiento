@@ -1,5 +1,5 @@
 body{
-	border: 1px solid black;
+	
 	text-align: center;
 }
 .tabla {
@@ -27,3 +27,11 @@ color:white;
 	
 }
 
+form {
+	
+}
+
+input{
+	display: flex;
+	margin: auto;
+}
