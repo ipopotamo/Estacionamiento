@@ -10,16 +10,16 @@ if (isset($_POST['register'])) {
 	    $consulta = "INSERT INTO persona_auto(nombre, apellido,dni,patente ) VALUES ('$name','$ape','$dni','$pat')";
 	    $resultado = mysqli_query($con,$consulta);
 	    if ($resultado) {
-	    	?> 
+	    	?>
 	    	<h3 class="ok"> XD </h3>
            <?php
 	    } else {
-	    	?> 
+	    	?>
 	    	<h3 class="bad">Ups ha ocurrido un error!</h3>
            <?php
 	    }
     }   else {
-	    	?> 
+	    	?>
 	    	<h3 class="bad">Por favor complete los campos!</h3>
            <?php
     }

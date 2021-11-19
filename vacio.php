@@ -9,18 +9,22 @@
 $inc = include("conexion.php");
 
 if ($inc) {
-	$consulta = "SELECT * FROM persona_auto INNER JOIN pisos ON persona_auto.id_client=pisos.id_cli ORDER BY id_client";
+	$consulta = "SELECT pisos.lugar,pisos.piso FROM pisos INNER JOIN estado ON estado.id_piso = pisos.lugar WHERE estado.estado ='libre' ";
 	$resultado = mysqli_query($con,$consulta);
 }
+   if($resultado)
+   {
+     ?><h1>HAY LUGARES VACIOS</h1> <?php
+      }
+   else
+   {
+?><h1>NO HAY LUGARES VACIOS</h1><?php
+   }
 	    ?>
 
         <table class = "tabla" >
 			  	<thead>
-						<th class = "col">Numero de cliente</th>
-						<th class = "col">Nombre</th>
-						<th class = "col">Apellido</th>
-						<th class = "col">DNI</th>
-						<th class = "col">Patente</th>
+
 						<th class = "col">Lugar</th>
 						<th class = "col">Piso</th>
 
@@ -29,11 +33,7 @@ if ($inc) {
 						<?php while($row = $resultado->fetch_assoc()){    ?>
             	<tr>
 
-								<td class = "fil"><?php  echo $row['id_client'] ?></td>
-								<td class = "fil"><?php  echo $row['nombre'] ?></td>
-								<td class = "fil"><?php  echo $row['apellido'] ?></td>
-								<td class = "fil"><?php  echo $row['dni'] ?></td>
-								<td class = "fil"><?php  echo $row['patente'] ?></td>
+
 								<td class = "fil"><?php  echo $row['lugar'] ?></td>
 								<td class = "fil"><?php  echo $row['piso'] ?></td>
 

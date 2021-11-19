@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Parking Zone</title>
+<link rel = "stylesheet" >
+
+
+
+
 </head>
 <body>
-	<?php
-	include("mostrar.php");
-	?>
+
+<a href="vacio.php"><button>Lugares vacios</button></a>
+<br>
+<a href="tabla.php"><button>Clientes</button></a>
+<br>
+<a href="formeli.php"><button>Quitar cliente</button></a>
 
 </body>
