@@ -11,7 +11,7 @@
 
 <main class="conte">
 
-<a  href="vacio.php"><button class="lol">Lugares vacios</button></a>
+<a  href="mostvacio.php"><button class="lol">Lugares vacios</button></a>
 
 <a  href="tabla.php"><button class="lol">Clientes</button></a>
 

@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    include("mostrar.php");
+    include("vacio.php");
     ?>
 </body>
 </html>
