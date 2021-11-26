@@ -26,11 +26,11 @@ color:white;
 
 }
 
-form {
-
-}
-
 input{
 	display: flex;
 	margin: auto;
+}
+
+button{
+	width: 50%;
 }
