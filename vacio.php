@@ -17,7 +17,7 @@ if ($inc) {
 
 
      ?>
-		 <table class = "tabla" >
+		 <table class = "tabla2" >
 			 <thead>
 
 				 <th class = "col">Lugar</th>
@@ -27,12 +27,8 @@ if ($inc) {
 				 <tbody>
 				 <?php while($row = $resultado->fetch_assoc()){    ?>
 					 <tr>
-
-
-						 <td class = "fil"><?php  echo $row['lugar'] ?></td>
+						<td class = "fil"><?php  echo $row['lugar'] ?></td>
 						 <td class = "fil"><?php  echo $row['piso'] ?></td>
-
-
 				 <?php }?>
 				 </tbody>
 		 </table>

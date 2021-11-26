@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<a href="index.php"><button>volver</button></a>
-	<br><br>
+    
+	
+	
 	<meta charset="utf-8">
 </head>
 <body>
+    <a href="index.php"><button class=" botonn">volver</button></a><br><br>
     <?php
     include("vacio.php");
     ?>

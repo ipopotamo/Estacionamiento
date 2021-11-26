@@ -1,12 +1,21 @@
 body{
 	text-align: center;
+	background-color: rgb(36, 172, 158);
 }
 .tabla {
+	
 	background-color: rgb(107, 106, 105);
-	border: solid 1px red;
+
 	text-align: center;
 	margin: 0 auto;
 
+}
+.tabla2{
+	width: 300px;
+	background-color: rgb(107, 106, 105);
+	color:white;
+	text-align: left;
+	margin: 0 auto;
 }
 th, td
 {
@@ -14,6 +23,7 @@ padding:20px;
 }
 
 thead{
+	width: auto;
 background-color: rgb(107, 106, 105);
 border-bottom: solid 5px rgb(10, 66, 122);
 color:white;
@@ -21,7 +31,6 @@ color:white;
 }
 .fil{
 	background-color: rgb(63, 47, 47);
-	border: 2px solid blue;
 	color: blanchedalmond;
 
 }
@@ -33,4 +42,7 @@ input{
 
 button{
 	width: 50%;
+}
+.botonn{
+	width: 250px;
 }
