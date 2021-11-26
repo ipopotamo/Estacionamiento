@@ -1,5 +1,4 @@
 body{
-	
 	text-align: center;
 }
 .tabla {
@@ -7,15 +6,15 @@ body{
 	border: solid 1px red;
 	text-align: center;
 	margin: 0 auto;
-	
+
 }
 th, td
 {
 padding:20px;
-
 }
+
 thead{
-background-color: rgb(107, 106, 105); 
+background-color: rgb(107, 106, 105);
 border-bottom: solid 5px rgb(10, 66, 122);
 color:white;
 
@@ -24,11 +23,11 @@ color:white;
 	background-color: rgb(63, 47, 47);
 	border: 2px solid blue;
 	color: blanchedalmond;
-	
+
 }
 
 form {
-	
+
 }
 
 input{
